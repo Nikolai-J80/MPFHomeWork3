@@ -71,9 +71,9 @@ public class Main {
         thread2.join();
         thread3.join();
 
-        System.out.println("Красивых слов из 3 букв - " + counter3.get());
-        System.out.println("Красивых слов из 4 букв - " + counter4.get());
-        System.out.println("Красивых слов из 5 букв - " + counter5.get());
+        System.out.println("Красивых слов с длинной 3: " + counter3.get() + " шт");
+        System.out.println("Красивых слов с длинной 3: " + counter4.get() + " шт");
+        System.out.println("Красивых слов с длинной 3: " + counter5.get() + " шт");
 
     }
 
